@@ -140,6 +140,11 @@ a:hover {
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
 }
 
+.button-follow > * {
+  display: flex;
+  gap: 4px;
+}
+
 .button-group {
   display: flex;
   align-items: center;
@@ -177,6 +182,7 @@ a:hover {
 .left-column > * {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .about-seller-title {
@@ -504,10 +510,9 @@ select {
   .left-column {
     width: 100%;
   }
-
+}
 
 @media only screen and (max-width: 600px) {
-
   .modal-dialog {
     width: unset;
     max-width: 100%;
