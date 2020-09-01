@@ -93,11 +93,14 @@
         <!--/.nav-collapse -->
       </div>
     </nav>
+    
+    <!-- IF SELLER HAS VIDEO -->
+    
     <div class="container">
       <!-- PRODUCT DETAILS -->
-      <div class="row item-detail">
+      <div class="row item-detail display-flex">
 
-        <div class="col-lg-6 col-md-4">
+        <div class="col-lg-6 col-md-4 display-flex left-column">
           
           <div class="store-logo-container">
             <img src="sample-logo_282x200.jpg" alt="">
@@ -106,187 +109,162 @@
           <h1 class="mt-0 seller-title">
             Emma Lea Farms <span><i class="far fa-heart"></i>
           </h1>
-    
+
           </span></h4>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star"></span>
-          <span class="star-rating">4.3</span>
-          <span class="reviews-list"><a href="#">31 reviews</a></span>
-          <span class="food-sprite-list">
-            <img src="leaf.svg" alt="Natural" data-toggle="tooltip" title="Natural">
-            <img src="organic.svg" alt="Natural" data-toggle="tooltip" title="Organic">
-            <img src="no-gmo.svg" alt="Natural" data-toggle="tooltip" title="No GMO">
-            <img src="vegan.svg" alt="Natural" data-toggle="tooltip" title="Vegan">
-            <img src="gluten-free.svg" alt="Natural" data-toggle="tooltip" title="Gluten Free">
-          </span>
-          <!-- <div class="play-video">
-              <button
-              class="youtube-btn"
-              type="button"
-              data-toggle="modal"
-              data-target="#exampleModal"
-            >
-              <i class="fab fa-youtube"></i>
-            </button>
-            <span class='video-description'>Promotional Video</span>
-          </div> -->
-          <h3 class="about-seller-title">
-            About Emma Lea Farms
-          </h3>
-          <p class="seller-overview">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            ut condimentum nibh. Maecenas dignissim, nunc sed pretium dignissim,
-            sapien augue viverra orci, vitae accumsan tellus sem a nulla.
-            Curabitur in tristique erat. Morbi vel tincidunt odio. Nulla nec sem
-            molestie, lacinia nibh ac, varius risus. In hac habitasse platea
-            dictumst. Etiam urna ante, consectetur id leo ut, consectetur semper
-            mauris.<br />
-          </p>
-          <button class="button-default button-follow"><span><i class="fas fa-heart"></i> Follow this Seller</button>
+          <div class="display-flex">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="star-rating">4.3</span>
+            <span class="reviews-list"><a href="#">31 reviews</a></span>
+            <span class="food-sprite-list">
+              <img src="leaf.svg" alt="Natural" data-toggle="tooltip" title="Natural">
+              <img src="organic.svg" alt="Natural" data-toggle="tooltip" title="Organic">
+              <img src="no-gmo.svg" alt="Natural" data-toggle="tooltip" title="No GMO">
+              <img src="vegan.svg" alt="Natural" data-toggle="tooltip" title="Vegan">
+              <img src="gluten-free.svg" alt="Natural" data-toggle="tooltip" title="Gluten Free">
+            </span>
+          </div>
+
           
         </div>
         
-        <div class="col-lg-6 col-md-6">
-          <img class="seller-image" src="Aerial-Hyland_800x600.jpg" />
+        <div class="col-lg-6 col-md-6 display-flex">
+          <div class="seller-image-container">
+            <img class="seller-image" src="farmer.jpg" />
+          </div>
+
         </div>
         
       </div>
-      <!-- More from the vendor -->
-      <div class="row u-margin-top-50 u-padding-15 u-border-top">
-        <h3>More from Peach Arch Farms</h3>
+      
+      <div class="row description-vid display-flex">
+        
+        <div class="col-md-6 display-flex">
+          
+          <div class="about-container display-flex">
+            
+            <h3 class="about-seller-title">
+              About Emma Lea Farms
+            </h3>
+            <p class="seller-overview">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+              ut condimentum nibh. Maecenas dignissim, nunc sed pretium dignissim,
+              sapien augue viverra orci, vitae accumsan tellus sem a nulla.
+              Curabitur in tristique erat. Morbi vel tincidunt odio. Nulla nec sem
+              molestie, lacinia nibh ac, varius risus. In hac habitasse platea
+              dictumst. Etiam urna ante, consectetur id leo ut, consectetur semper
+              mauris.<br />
+            </p>
+  
+            <button class="button-default button-follow"><span><i class="fas fa-heart"></i> Follow this Seller</button>
+            
+          </div>
+          
+        </div>
+        
+        <div class="col-xs-12 col-md-6 display-flex">
+          
+        <div class="seller-video-container">
+        
+            
+              <iframe src="https://www.youtube.com/embed/eMOmEGEjdx0" frameborder="0"  allowfullscreen="true" ></iframe>
+            </iframe>
+            
+          </div>
+          
+        </div> 
       </div>
-      <div class="row display-flex other-products">
-        <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="panel panel-added-to-cart">
-            <img
-              src="https://images.unsplash.com/photo-1573697610008-4c72b4e9508f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ"
-              class="panel-img-top"
-              alt="..."
-            />
-            <div class="panel-body">
-              <h5 class="panel-title">Product Name</h5>
-              <div class="control-container">
-                <div class="quantity"><i class="fas fa-minus-circle"></i></div><strong> 1 </strong><div class="quantity"><i class="fas fa-plus-circle"></i></div>
-              </div>
-              
-              
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="panel panel-sale">
-            <img
-              src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ"
-              class="panel-img-top"
-              alt="..."
-            />
-            <div class="panel-body">
-              <h5 class="panel-title">Product With Really Long Name</h5>
-              
-              <a href="#" class="btn btn-sm-add-to-cart">ADD TO CART</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="panel">
-            <img
-              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ"
-              class="panel-img-top"
-              alt="..."
-            />
-            <div class="panel-body">
-              <h5 class="panel-title">Product With An Even Much Longer Name That is Crazy Long</h5>
-              <a href="#" class="btn btn-sm-add-to-cart">ADD TO CART</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="panel">
-            <img
-              src="https://images.unsplash.com/photo-1530176611600-d05a6387d07c?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ"
-              class="panel-img-top"
-              alt="..."
-            />
-            <div class="panel-body">
-              <h5 class="panel-title">Product Name</h5>
-              <a href="#" class="btn btn-sm-add-to-cart">ADD TO CART</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="panel">
-            <img
-              src="https://images.unsplash.com/photo-1551754655-cd27e38d2076?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ"
-              class="panel-img-top"
-              alt="..."
-            />
-            <div class="panel-body">
-              <h5 class="panel-title">Product Name</h5>
-              <a href="#" class="btn btn-sm-add-to-cart">ADD TO CART</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-sm-4 col-md-2">
-          <div class="panel panel-sale">
-            <img
-              src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjIwOTIyfQ"
-              class="panel-img-top"
-              alt="..."
-            />
-            <div class="panel-body">
-              <h5 class="panel-title">Product Name</h5>
-              <a href="#" class="btn btn-sm-add-to-cart">ADD TO CART</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
       <!-- End of container below -->
     </div>
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button
-            onClick="closeModal()"
-              type="button"
-              class="close"
-              id="close-modal"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="video-box" id="video-box">
-              <iframe
-                title="video-box"
-                allowfullscreen="true"
-                src="//www.youtube.com/embed/eMOmEGEjdx0"
-                frameborder="0"
-              ></iframe>
+    
+        <!-- IF SELLER DOES NOT HAVE VIDEO -->
+    
+        <div class="container">
+          <!-- PRODUCT DETAILS -->
+          <div class="row item-detail display-flex">
+    
+            <div class="col-lg-6 col-md-4 display-flex left-column">
+              
+              <div class="store-logo-container">
+                <img src="sample-logo_282x200.jpg" alt="">
+              </div>
+              
+              <h1 class="mt-0 seller-title">
+                Emma Lea Farms <span><i class="far fa-heart"></i>
+              </h1>
+    
+              </span></h4>
+              <div class="display-flex">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="star-rating">4.3</span>
+                <span class="reviews-list"><a href="#">31 reviews</a></span>
+                <span class="food-sprite-list">
+                  <img src="leaf.svg" alt="Natural" data-toggle="tooltip" title="Natural">
+                  <img src="organic.svg" alt="Natural" data-toggle="tooltip" title="Organic">
+                  <img src="no-gmo.svg" alt="Natural" data-toggle="tooltip" title="No GMO">
+                  <img src="vegan.svg" alt="Natural" data-toggle="tooltip" title="Vegan">
+                  <img src="gluten-free.svg" alt="Natural" data-toggle="tooltip" title="Gluten Free">
+                </span>
+              </div>
+    
+              
             </div>
+            
+            <div class="col-lg-6 col-md-6 display-flex">
+              <div class="seller-image-container">
+                <img class="seller-image" src="farmer.jpg" />
+              </div>
+    
+            </div>
+            
           </div>
+          
+          <div class="row description-vid display-flex">
+            
+            <div class="col-md-6 display-flex">
+              
+              <div class="about-container display-flex">
+                
+                <h3 class="about-seller-title">
+                  About Emma Lea Farms
+                </h3>
+                <p class="seller-overview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                  ut condimentum nibh. Maecenas dignissim, nunc sed pretium dignissim,
+                  sapien augue viverra orci, vitae accumsan tellus sem a nulla.
+                  Curabitur in tristique erat. Morbi vel tincidunt odio. Nulla nec sem
+                  molestie, lacinia nibh ac, varius risus. In hac habitasse platea
+                  dictumst. Etiam urna ante, consectetur id leo ut, consectetur semper
+                  mauris.<br />
+                </p>
+      
+ 
+                
+              </div>
+              
+            </div>
+            
+            <div class="col-xs-12 col-md-6 display-flex">
+              
+            <div class="seller-no-video-container">
+            
+                
+              <button class="button-default button-follow"><span><i class="fas fa-heart"></i> Follow this Seller</button>
+                
+              </div>
+              
+            </div> 
+          </div>
+          <!-- End of container below -->
         </div>
-      </div>
-    </div>
 
-    <!-- END MODAL -->
 
     <!-- NEEDS WORK TO END VIDEO  -->
   
