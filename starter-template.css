@@ -1,6 +1,5 @@
 body {
   padding-top: 50px;
-  font-family: 'Montserrat', sans-serif;
 }
 
 body .video-modal .video-box {
@@ -173,6 +172,7 @@ a:hover {
   position: absolute;
   top: 8px;
   right: 8px;
+  color: #666;
 }
 
 .seller-image {
@@ -193,9 +193,12 @@ a:hover {
 }
 
 .about-seller-title {
-  font-family: 'Montserrat' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   color: #666666;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 15px;
 }
 
 
@@ -232,6 +235,9 @@ a:hover {
   border-top: 1px solid #45b6d9;
 }
 
+.u-float-right {
+  float: right;
+}
 /* Cards */
 
 .panel {
@@ -510,6 +516,37 @@ select {
   
 }
 
+.description {
+  background-color: #fafafa;
+  padding: 15px;
+  position: relative;
+}
+.two-columns {
+  column-count: 2;
+  column-gap: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  column-rule: 1px solid #ccc;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.social-media-row {
+  border-top: 1px solid #dadada;
+  padding-top: 8px;
+}
+
+.social-media-row > i {
+  color: #666;
+  font-size: 20px;
+  margin-right: 8px;
+
+}
+
+.social-media-row > i:hover {
+  color: #ff7900
+}
+
 
 /* MEDIA QUERIES  */
 
@@ -558,5 +595,9 @@ select {
 
   .seller-image {
     margin-top: 16px;
+  }
+  
+  .two-columns {
+    column-count: 1;
   }
 }
